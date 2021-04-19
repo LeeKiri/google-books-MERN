@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Nav from "./components/Nav";
+import Navbar from "./components/Navbar";
 import Search from "./pages/search";
 import Saved from "./pages/saved";
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Nav />
+        <Navbar />
         <Switch>
           <Route path="/">
             <Search />
